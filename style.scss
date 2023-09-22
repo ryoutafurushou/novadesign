@@ -1,0 +1,175 @@
+@charset "UTF-8";
+.header{
+  background-color: #11A1A1;
+  &_logo{
+    
+  }
+}
+#header-menu ul {
+  display: flex;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: #ffffff;
+  z-index: 3;
+
+  li {
+    margin-left: 60px;
+  }
+}
+
+#header-logo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 3;
+}
+
+.nav-contact {
+  display: inline-block;
+  background-color: #B43E53;
+  text-align: center;
+  width: 162px;
+  height: 72px;
+  padding: 10px;
+  z-index: 3;
+  margin-left: 60px;
+}
+
+.main-visual img {
+  width: 100%;
+}
+
+.mv-container {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.mv-h2 {
+  font-size: 46px;
+  color: #ffffff;
+  z-index: 4;
+}
+
+.mv-h1 {
+  font-size: 62px;
+  color: #ffffff;
+}
+
+.News {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+}
+
+.box3 {
+  display: flex;
+}
+
+.Works {
+  h1 {
+    font-size: 50px;
+    position: relative;
+    left: 5%;
+    color: #1D2088;
+  }
+
+  p {
+    font-size: 18px;
+    position: relative;
+    left: 5%;
+  }
+}
+
+/* slick-slider */
+
+.slider {
+  margin: 50px;
+}
+
+.btn3 {
+  text-align: center;
+}
+
+.pro {
+  display: flex;
+
+  h2 {
+    color: #B43E53;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+  h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 16px;
+  }
+}
+
+.pro-img {
+  width: 414px;
+  height: 371px;
+
+}
+.support{
+text-align: center;
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #11A1A1;
+  }
+}
+.support-2{
+  display: flex;
+}
+.plan{
+  p{
+    color: #1D2088;
+    font-size: 16px;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .plan-img{
+    text-align: center;
+  }
+}
+.planning{
+  text-align: center;
+  
+
+}
+.contact{
+text-align: center;
+display: block;
+display: flex;
+justify-content: center;
+p{
+  font-size: 40px;
+}
+h3{
+  font-size: 14px;
+}
+}
+.service{
+  text-align: center;
+}
+.btn-5{
+ position: relative;
+ bottom: 70px;
+ left: 500px;
+}
+.blog{
+  text-align: center;
+}

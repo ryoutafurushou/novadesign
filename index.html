@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>wordpress-plactice</title>
+        <!-- reset.css destyle -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
+        <!-- css読み込み  -->
+        <link rel="stylesheet" href="style.css">
+        <!-- googlefonts読み込み -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+        <!-- slick読み込み -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </head>
+    <body>
+        <!-- ヘッダー -->
+        <header class="head">
+            <div id="header-logo">
+                <h1>
+                    <img class="nd" src="IMG/illustlogo.png" alt="">
+                </h1>
+            </div>
+            <nav id="header-menu">
+                <ul>
+                    <div>
+                        <!-- divの削除 -->
+                        <li>
+                            <a href="">
+                                <ruby>
+                                    事業内容
+                                    <p>    
+                                        <!-- p じゃなくてspan -->
+                                        <rt>Service</rt>
+                                    </p>
+                                </ruby>
+                            </a>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <a href="">
+                                <ruby>
+                                    施工実績
+                                    <p>
+                                        <rt>Works</rt>
+                                    </p>
+                                </ruby>
+                            </a>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <a href="">
+                                <ruby>
+                                    スタッフブログ
+                                    <p>
+                                        <rt>Blog</rt>
+                                    </p>
+                                </ruby>
+                            </a>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <a href="">
+                                <ruby>
+                                    会社概要
+                                    <p>
+                                        <rt>Campany</rt>
+                                    </p>
+                                </ruby>
+                            </a>
+                        </li>
+                        <li>
+                        </div>
+                        <div class="nav-contact">
+                            <a href="">
+                                <ruby>
+                                    お問い合わせ
+                                    <p>
+                                        <rt>Contact</rt>
+                                    </p>
+                                </ruby>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-visual">
+            <img src="IMG/main-visual.jpg" alt="">
+            <div class="mv-container">
+                <h2 class="mv-h2">空間をデザインする。</h2>
+                <br>
+                <h1 class="mv-h1">理想の住まいを実現します。</h1>
+            </div>
+        </main>
+        <section class="News">
+            <div>
+                <div class="box3">
+                    <h2>News</h2>
+                    <div>
+                        <input type="date" value="2022-08-01">
+                        <p>タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</p>
+                        <input type="date" value="2022-08-01">
+                        <p>タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります。</p>
+                    </div>
+                    <a class="btn1" href="">
+                        <img src="IMG/btn-1.png" alt="viewall">
+                    </a>
+                </div>
+            </section>
+            <article class="Works">
+                <h1>
+                    Works
+                </h1>
+                <p>施工実績</p>
+                <ul class="slider">
+                    <li>
+                        <img src="IMG/works-img1.png" alt="">
+                        <p>FireNo.003</p>
+                        <p>東京都 新宿区</p>
+                        <h2>
+                            東京都1-1 建売住宅の新築工事
+                        </h2>
+                        <p>施工時期 /2023年8月</p>
+                        <a href="">
+                            <img class="w-btn" src="IMG/btn-2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="IMG/works-img2.png" alt="">
+                        <p>FireNo.002</p>
+                        <p>福岡県 久留米市</p>
+                        <h2>
+                            福岡県 民泊の新設工事
+                        </h2>
+                        <p>施工時期 /2023年6月</p>
+                        <a href="">
+                            <img class="w-btn" src="IMG/btn-2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="IMG/works-img3.png" alt="">
+                        <p>FireNo.001</p>
+                        <p>大阪県 中央区</p>
+                        <h2>
+                            大阪県 木造アパート新設工事
+                        </h2>
+                        <p>施工時期 /2021年7月</p>
+                        <a href="">
+                            <img class="w-btn" src="IMG/btn-2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="IMG/works-img1.png" alt="">
+                        <p>FireNo.003</p>
+                        <p>東京都 新宿区</p>
+                        <h2>
+                            東京都1-1 建売住宅の新築工事
+                        </h2>
+                        <p>施工時期 /2023年8月</p>
+                        <a href="">
+                            <img class="w-btn" src="IMG/btn-2.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="btn3">
+                    <a class="" href="">
+                        <img src="IMG/btn-3.png" alt="viewall">
+                    </a>
+                </div>
+            </article>
+            <section class="pro">
+                <div>
+                    <h2>高い技術と豊富な経験で</h2>
+                    <h1>プロフェッショナルな家づくり</h1>
+                    <h3>建物を支える技術力</h3>
+                    <p>
+                        建設現場における監理業務は、安心の技術力を持った一級建築士、一級建築施工管理技士の資格保持者が行います。
+                    </p>
+                    <h3>５００棟以上の監理経験</h3>
+                    <p>一般住宅担当者は、500棟以上を現場監理して来た現場監理のプロ集団です。経験豊富な私たちが信頼できる安全な建物を造りあげます。</p>
+                    <h3>一貫したサポート体制</h3>
+                    <p>Nova Designでは土地の仕入れや銀行融資業務も含め、設計・施工・アフターメンテ等、建築工事全般を一貫してサポートします。</p>
+                </div>
+                <img class="pro-img" src="IMG/pro-img.png" alt="professional">
+            </section>
+            <section class="support">
+                <div>
+                    <h1>安心の住宅保証</h1>
+                    <p>Nova Designでは住宅瑕疵担保履行法に基づき、JIO日本住宅保証検査機構の我が家の保険に加入しています。</p>
+                </div>
+                <div class="support-2">
+                    <div>
+                        <h2>住宅瑕疵保険履行法</h2>
+                        <p>
+                            上主要な部分および雨水の浸入を防止する部分で瑕疵が発生した場合に修補費用の一定割合がJIOから売主等(住宅事業者)に支払われます。 当該瑕疵が発生した時に売主等が倒産等の場合、直接JIOへ保険金の請求ができます。
+                        </p>
+                        <h2>保証される対象の範囲</h2>
+                        <p>資力の確保が義務付けられるのは品確法(※)に定められた、構造耐力上主要な部分及び雨水の浸入を防止する部分です。</p>
+                        <p>住宅の品質確保の促進等に関する法律</p>
+                        <h2>対象の建物</h2>
+                        <p>Nova Designで建てた戸建て住宅、木造アパートRC造マンションが対象となります。</p>
+                        <p>※宿泊施設と店舗、オフィスは対象になりません。</p>
+                    </div>
+                    <div>
+                        <img src="IMG/point-img.png" alt="point-img">
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        この保険は事業者が契約者となる保険ですが、
+                        <br>
+                        主要構造部に起因する瑕疵が発生し事業者が倒産等の場合には直接住宅取得者様に保険金が支払われる等、
+                        <br>
+                        消費者保護を目的とした住宅瑕疵担保履行法に基づく保険です。
+                    </p>
+                    <img src="IMG/jio-img.png" alt="">
+                    <p>https://www.jio-kensa.co.jp/insurance/builtnew/</p>
+                </div>
+            </section>
+            <section>
+                <div class="plan">
+                    <p>建築のプロが手がける</p>
+                    <h1>設計・施工建物例</h1>
+                    <div class="plan-img">
+                        <img src="IMG/sekou-img.png" alt="">
+                    </div>
+                </div>
+                <div class="planning">
+                    <p>建築のことならNova Designにお任せください</p>
+                    <p>お電話またはメールにて承っております。お気軽にご相談ください。</p>
+                </div>
+                <div class="contact">
+                    <div>
+                        <img src="IMG/phone-img.png" alt="">
+                    </div>
+                    <div>
+                        <p>000-000-0000</p>
+                        <br>
+                        <h3>営業時間：平日9:00‐18:00</h3>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="IMG/btn-4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="service">
+                    <img src="IMG/service-img.jpg" alt="">
+                    <img src="IMG/service-img2.png" alt="">
+                    <div class="btn-5">
+                        <a href="">
+                            <img src="IMG/btn-5.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <article class="blog">
+                <img class="" src="IMG/blog-img.png" alt="">
+                <ul class="slider">
+                    <li>
+                        <img src="IMG/blog-img1.png" alt="">
+                        <p>Y様邸１階造作工事も終盤です。Y様邸１階造作工事も終盤です。</p>
+                        <p>2022.04.27</p>
+                        <a href="">
+                            <img src="IMG/btn-2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="IMG/blog-img2.png" alt="">
+                        <p>今月も残りわずかとなりました。</p>
+                        <p>2022.04.27</p>
+                        <a href="">
+                            <img src="IMG/btn-2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="IMG/blog-img1.png" alt="">
+                        <p>施工の際に気を付けるポイントと弊社で行っているチェックリスト</p>
+                        <p>2022.04.27</p>
+                        <a href="">
+                            <img src="IMG/btn-2.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="btn3">
+                    <a class="" href="">
+                        <img src="IMG/btn-3.png" alt="viewall">
+                    </a>
+                </div>
+            </article>
+            <div>
+                <img src="IMG/contact-backimg.jpg" alt="">
+            </div>
+            <div>
+                <img src="IMG/contact-img.png" alt="">
+            </div>
+            <div>
+                <p>工事に関するお問い合わせは、お電話またはメールにて承っております。</p>
+                <img src="IMG/phone-img.png" alt="">
+                <p>000-000-0000</p>
+                <p>営業時間：平日9:00‐18:00</p>
+            </div>
+            <div>
+                <img src="IMG/btn-4.png" alt="">
+            </div>
+            <footer>
+                <img src="IMG/footer-logo-img.png" alt="">
+                <div>
+                    <p>株式会社 Nova Design</p>
+                    <p>
+                        〒000-0000
+東京都新宿区西新宿二丁目 ハーバンビルNo.13　5F
+                    </p>
+                    <p>
+                        電話番号:000-000-0000
+　FAX：000-000-0000
+                    </p>
+                </div>
+                <div>
+                    <h1>事業内容</h1>
+                    <p>一般住宅の新築工事、増改築工事</p>
+                    <p>賃貸木造アパート・RC造マンション新築工事</p>
+                    <p>宿泊施設（民泊）新築工事</p>
+                    <p>店舗・オフィス内装工事</p>
+                </div>
+                <div>
+                    <h1>施工実績</h1>
+                    <p>新築住宅</p>
+                    <p>木造アパート</p>
+                    <p>RCマンション</p>
+                    <p>宿泊施設</p>
+                    <p>店舗・オフィス</p>
+                </div>
+                <div>
+                    <a href="">お知らせ</a>
+                    <a href="">スタッフブログ</a>
+                    <a href="">お問い合わせ</a>
+                </div>
+                <div>
+                    <a href="">会社概要</a>
+                    <a href="">アクセス</a>
+                    <p>© 2022 Nova Design.inc</p>
+                </div>
+            </footer>
+            <!-- js -->
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+            <script src="main.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        </body>
+    </html>
